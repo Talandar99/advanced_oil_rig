@@ -1,0 +1,13 @@
+{
+    "name": "advanced_oil_rig",
+    "version": "0.1.0",
+    "title": "Advanced oil rig",
+    "author": "Talandar",
+    "dependencies": [
+        "base >= 2.0",
+        "talandar_cargo_ships_tweaks",
+        "diesel_engine"
+    ],
+    "description": "Adds diesel-powered offshore oil rigs capable of extracting resources from deep-sea deposits.",
+    "factorio_version": "2.0"
+}
