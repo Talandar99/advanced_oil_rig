@@ -7,21 +7,25 @@ local item_sounds = require("__base__.prototypes.item_sounds")
 local advanced_oil_rig_concrete = util.table.deepcopy(data.raw["tile"]["concrete"])
 advanced_oil_rig_concrete.name = "advanced-oil-rig-concrete"
 advanced_oil_rig_concrete.minable = nil
+advanced_oil_rig_concrete.allows_being_covered = false
 data:extend({ advanced_oil_rig_concrete })
 
 local advanced_oil_rig_hazard_concrete = util.table.deepcopy(data.raw["tile"]["hazard-concrete-left"])
 advanced_oil_rig_hazard_concrete.name = "advanced-oil-rig-hazard-concrete-left"
 advanced_oil_rig_hazard_concrete.minable = nil
+advanced_oil_rig_hazard_concrete.allows_being_covered = false
 data:extend({ advanced_oil_rig_hazard_concrete })
 
 local advanced_oil_rig_refined_concrete = util.table.deepcopy(data.raw["tile"]["refined-concrete"])
 advanced_oil_rig_refined_concrete.name = "advanced-oil-rig-refined-concrete"
 advanced_oil_rig_refined_concrete.minable = nil
+advanced_oil_rig_refined_concrete.allows_being_covered = false
 data:extend({ advanced_oil_rig_refined_concrete })
 
 local advanced_oil_rig_refined_hazard_concrete = util.table.deepcopy(data.raw["tile"]["refined-hazard-concrete-left"])
 advanced_oil_rig_refined_hazard_concrete.name = "advanced-oil-rig-refined-hazard-concrete-left"
 advanced_oil_rig_refined_hazard_concrete.minable = nil
+advanced_oil_rig_refined_hazard_concrete.allows_being_covered = false
 data:extend({ advanced_oil_rig_refined_hazard_concrete })
 
 data:extend({

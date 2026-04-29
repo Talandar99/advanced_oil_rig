@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 2026-04-29
+  Changes:
+    - you can no longer place regular concrete tiles on advanced oil rigs. 
+      This is done to prevent accidently removing offshore resource patches
+    - updated item icon to make more reabale
+---------------------------------------------------------------------------------------------------
 Version: 0.1.0
 Date: 2026-03-15
   Changes:
