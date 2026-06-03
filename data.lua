@@ -33,11 +33,11 @@ data:extend({
 		allow_productivity = false,
 		energy_required = 25,
 		ingredients = {
-			{ type = "item", name = "steel-plate", amount = 500 },
+			{ type = "item", name = "steel-plate", amount = 300 },
 			{ type = "item", name = "engine-unit", amount = 100 },
-			{ type = "item", name = "iron-gear-wheel", amount = 100 },
-			{ type = "item", name = "pipe", amount = 250 },
-			{ type = "item", name = "steam-engine", amount = 6 },
+			{ type = "item", name = "iron-gear-wheel", amount = 50 },
+			{ type = "item", name = "pipe", amount = 150 },
+			{ type = "item", name = "oil_rig", amount = 1 },
 			{ type = "item", name = "concrete", amount = 1000 },
 		},
 		results = {

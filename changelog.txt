@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+Date: 2026-06-03
+  Changes:
+    - advanced oil rig recipe now require regular oil rig. 
+      Amount of Intermediates needed is reduced a bit based on regular oil rig cost
+---------------------------------------------------------------------------------------------------
 Version: 0.2.0
 Date: 2026-04-29
   Changes:
